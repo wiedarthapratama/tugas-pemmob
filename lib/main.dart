@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/pages/stful_screen.dart';
+import 'package:hello_world/pages/halaman_satu_screen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
       ),
       themeMode: ThemeMode.dark,
-      home: StfulScreen(),
+      home: HalamanSatuScreen(),
     );
   }
 }
